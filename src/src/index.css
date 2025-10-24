@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn[wght].woff2') format('woff2');
+  font-display: swap;
+}
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  margin: 0;
+  background: #000;
+}
+
+.neon-text {
+  text-shadow: 0 0 10px #E50914, 0 0 20px #E50914, 0 0 40px #E50914;
+}
